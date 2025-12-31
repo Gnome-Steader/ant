@@ -1,0 +1,17 @@
+{
+  "name": "ant-nuptial-flight-predictor",
+  "version": "0.4.0",
+  "description": "Ant nuptial flight calendar with hourly weather features and improved scoring",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
